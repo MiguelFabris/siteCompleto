@@ -165,9 +165,6 @@ select{
     border-radius: 4px;
     border: 1px solid #ccc
 }
-#question2{
-    height: 200px;
-}
 input[type="radio"],
 input[type="checkbox"]{
     margin-right: 5px;
@@ -289,9 +286,6 @@ footer{
 }
 h2{
     text-align: center;
-}
-.question{
-    margin-bottom: 20px;
 }
 #enviar, #recomeco{
     width: 100%;
