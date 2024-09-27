@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <title>Lagoste - Home</title>
+</head>
+<body>
+    <audio src="audio/somTransicao.mp3" autoplay></audio>
+    <header>
+        <img src="imagens/logo.png" id="logo_topo" >
+        <nav class="menu">            
+            <a href="index.html" onclick="somTransicao()">Home</a>
+            <a href="produtos.html" onclick="somTransicao()">Produtos</a>
+            <a href="contato.html" onclick="somTransicao()">Contato</a>
+            <a href="quiz.html" onclick="somTransicao()">Quiz</a>
+        </nav>
+    </header>
+
+    <div class="carrossel">
+    <div class="slides">
+        <img src="imagens/promo1.png" alt="Imagem 1">
+        <img src="imagens/promo2.png" alt="Imagem 2">
+        <img src="imagens/promo3.png" alt="Imagem 3">
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+ 
+    <h1 id="conheca">CONHECA MAIS SOBRE NÓS</h1>
+    <section id="missao">
+        <article>
+            <h1 id="titulo_missao"> Missão </h1>
+            A Lagoste é uma marca dedicada a oferecer roupas de cowboy que combinam tradição e estilo moderno. Nossa missão é proporcionar peças duráveis e confortáveis, perfeitas para quem vive a vida nas estradas ou aprecia a cultura country. Trabalhamos com materiais de alta qualidade, garantindo resistência e conforto, seja para uma cavalgada, um rodeio ou um passeio casual. Além das clássicas camisas xadrez e jeans robustos, também oferecemos acessórios como chapéus, cintos e botas, tudo pensado para refletir a essência do cowboy contemporâneo. Na Lagoste, celebramos o espírito aventureiro e autêntico, permitindo que nossos clientes expressem seu estilo com orgulho.
+        </article>
+    </section>
+    <section id="visao">
+        <article>
+            <h1 id="titulo_visao"> Visão </h1>
+            Na Lagoste, nossa visão é ser a referência em roupas de cowboy que unem autenticidade, estilo e funcionalidade. Acreditamos que a vestimenta deve contar uma história e refletir a paixão pela vida ao ar livre e pela cultura country. Queremos inspirar pessoas a se conectarem com suas raízes e a explorarem novas aventuras, sempre com conforto e confiança. Buscamos constantemente inovações em design e sustentabilidade, garantindo que nossas peças não apenas honrem a tradição dos cowboys, mas também respeitem o meio ambiente. Nosso objetivo é criar uma comunidade de amantes do estilo country, onde cada cliente se sinta parte de uma jornada que valoriza o legado e a liberdade.
+        </article>
+    </section>
+    <section id="valores">
+        <article>
+            <h1 id="titulo_valores"> Valores </h1>
+            Na Lagoste, nossos valores são a base de tudo que fazemos. Priorizamos a autenticidade, garantindo que cada peça reflita a verdadeira essência da cultura cowboy. A qualidade é fundamental, com materiais duráveis que oferecem conforto e resistência. Comprometemo-nos com a sustentabilidade, promovendo práticas responsáveis em nossa produção. Valorizamos a comunidade, buscando conectar pessoas apaixonadas pela vida ao ar livre, e a inclusão, garantindo que todos se sintam representados. Por fim, estamos sempre em busca de inovação, melhorando nossos produtos e a experiência do cliente, sem perder de vista nossas raízes.
+        </article>
+    </section>
+    
+    <section id="feedback">
+        <h1 id="videos">ASSISTA A ALGUNS DE NOSSOS CLIENTES:</h1>
+        <iframe id="video1" src="https://www.youtube.com/embed/RKD1E3JM8hk?si=IGdr0bGoAL_ux2_O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe id="video2" src="https://www.youtube.com/embed/Xrf5SYrF2HE?si=JzUKfrb0QLX4IpgZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe id="video3" src="https://www.youtube.com/embed/0jYMMUShUkQ?si=dYPyWzw_1v_vY0OJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+<footer>
+    <p>Copyright © 2023-2024 de Miguel Fabris. Todos os direitos reservados. <br> O conteúdo desse site poderá ser compartilhado desde que seja mencionado que é de autoria de Miguel Olbera Fabris.</p>
+</footer>
+    <audio id="transition" src="audio/somTransicao.mp3" type="mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+
+</body>
+</html>
