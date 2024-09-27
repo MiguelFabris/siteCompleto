@@ -340,3 +340,6 @@ h2{
     height: 5em;
     resize: vertical;
 }
+audio{
+    display: none;
+}
