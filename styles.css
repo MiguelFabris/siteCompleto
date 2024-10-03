@@ -354,3 +354,6 @@ img:hover{
     -webkit-transform:scale(1);
     transform:scale(1.02)
 }
+#feedback{
+    margin-left: 45px;
+}
