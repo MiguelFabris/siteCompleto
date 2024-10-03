@@ -81,8 +81,4 @@ function recomecar(){
     result.innerHTML = "";
     document.getElementById('enviar').disabled=false;
     document.getElementById('recomeco').disabled=true;
-};
-function somTransicao(){
-    let transitionSound = document.getElementById('transition');
-    transitionSound.play();
 }
