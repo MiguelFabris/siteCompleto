@@ -124,12 +124,12 @@ section.imagem{
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
-    transition: 0.4s;
+    transition: transform .5s ease;
 }
 #adicionar:hover{
     cursor: pointer;
     background-color: #713233;
-
+    transform: scale(1.03);
 }
 .contato{
     max-width: 600px;
@@ -336,4 +336,21 @@ h2{
 }
 audio{
     display: none;
+}
+img{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+ 
+img:hover{
+    -webkit-transform:scale(1);
+    transform: scale(1.02);
+}
+#jaqueta, #bota, #chapeu, #fivela, #calca, #bandana{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+#jaqueta:hover, #bota:hover, #chapeu:hover, #fivela:hover, #calca:hover, #bandana:hover{
+    -webkit-transform:scale(1);
+    transform:scale(1.02)
 }
